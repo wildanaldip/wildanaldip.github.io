@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style/main.css" rel="stylesheet">
+    <link href="style/output.css" rel="stylesheet">
+</head>
+
+<body class="font-[Lexend_Deca]">
+    <section class="relative h-[630px] bg-cover bg-center" style="background-image: url('asset/hero.png');">
+        <nav id="Navbar" class="max-w-[1130px] mx-auto flex justify-between items-center bg-transparent pt-[50px] z-10">
+            <div class="logo-container flex gap-[30px] items-center">
+                <a href="{{route('front.index')}}" class="flex shrink-0">
+                    <img src="asset/dann.png" alt="logo" />
+                </a>
+            </div>
+            <div class="flex gap-[10px] text-white">
+                <a href="categoryPage.html" class="rounded-full p-[12px_22px] flex items-center transition-all duration-300 hover:ring-2 hover:ring-[#000099]">
+                    <span>About</span>
+                </a>
+                <a href="{{ route('front.dosbim') }}" class="rounded-full p-[12px_22px] flex items-center transition-all duration-300 hover:ring-2 hover:ring-[#000099]">
+                    <span>Skills</span>
+                </a>
+                <a href="{{ route('front.pengumuman') }}" class="rounded-full p-[12px_22px] flex items-center transition-all duration-300 hover:ring-2 hover:ring-[#000099]">
+                    <span>Portfolio</span>
+                </a>
+                <a href="categoryPage.html" class="rounded-full p-[12px_22px] flex items-center transition-all duration-300 hover:ring-2 hover:ring-[#000099]">
+                    <span>Experience</span>
+                </a>
+                <a href="categoryPage.html" class="rounded-full p-[12px_22px] flex items-center transition-all duration-300 hover:ring-2 hover:ring-[#000099]">
+                    <span>Education</span>
+                </a>
+                <a href="categoryPage.html" class="rounded-full p-[12px_22px] flex items-center transition-all duration-300 hover:ring-2 hover:ring-[#000099]">
+                    <span>Contact</span>
+                </a>
+            </div>
+        </nav>
+        <div class="flex flex-col justify-center items-center max-w-[1130px] mx-auto mt-[156px] text-center text-white">
+            <h2 class="text-[36px] font-bold mb-[24px]">HI, I am <span class="text-[#FFFF46]">Wildan Aldi Pamungkas</span></h2>
+            <p class="text-[16px] w-[767px]">I am a recent graduate from Dian Nuswantoro University, holding a degree in Computer Engineering. Eager to apply my technical skills and knowledge to real-world challenges, I am enthusiastic about starting my professional journey in the tech
+                industry
+            </p>
+            <div class="flex mt-[40px] gap-[10px]">
+                <a href="#">
+                    <img src="asset/linkedin.png" alt="lingkedin">
+                </a>
+                <a href="#">
+                    <img src="asset/ig.png" alt="instagram">
+                </a>
+                <a href="#">
+                    <img src="asset/fb.png" alt="facebook">
+                </a>
+            </div>
+            <div class="flex mt-[90px]" style="width: 41px; height: 30px;">
+                <a href="#about">
+                    <img src="asset/arrow.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="flex items-center relative h-[630px] bg-[#0A0804]">
+        <img src="asset/union1.png" alt="">
+        <div class="flex text-white justify-center my-auto w-[1107px]">
+            <img src="asset/fotoku.png" alt="Profile">
+            <div class="flex flex-col ml-[64px]  mt-[20px]">
+                <h2 class="font-bold text-[#FFFF46] text-[30px]">ABOUT ME</h2>
+                <hr class="hr-garis">
+                <p class=" mt-[24px] text-[20px] ">My name is Wildan Aldi Pamungkas. I am a graduate with a Bachelor’s degree in Computer Engineering from Dian Nuswantoro University, with experience in research on technology-based projects, particularly in web development. Currently, I
+                    am seeking new opportunities and experiences in a work environment that supports growth and learning to enhance my skills. I am capable of working well both in teams and individually. I am eager to dedicate my time and effort to contribute
+                    to the development of the company.</p>
+                <div class="flex text-[20px] justify-between mt-[24px] text-[#A3A6AE]">
+                    <div class="flex flex-col">
+                        <span>Nama : Wildan Aldi Pamungkas</span>
+                        <span>Age : 23</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span>From : Semarang, Jawa Tengah</span>
+                        <span>Email : wildanaldy2@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex justify-center relative h-[630px] bg-sect">
+        <div class="flex flex-col justify-center text-center">
+            <h1 class="font-bold text-[#FFFF46] text-[32px] ">SKILLS</h1>
+            <div class="flex mt-[80px]">
+                <div class="card-container">
+                    <!-- Card 1 -->
+                    <div class="card-sect">
+                        <img src="asset/web.png" alt="Icon 1" class="card-icon">
+                        <p class="card-text">Web Development</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card-sect">
+                        <img src="asset/desain.png" alt="Icon 2" class="card-icon">
+                        <p class="card-text">UI/UX Design</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card-sect">
+                        <img src="asset/office.png" alt="Icon 3" class="card-icon">
+                        <p class="card-text">Microsoft Office</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="card-sect">
+                        <img src="asset/time.png" alt="Icon 4" class="card-icon">
+                        <p class="card-text">Time Management</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src=" style/js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>
